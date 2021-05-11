@@ -1,0 +1,204 @@
+/* ********************Input *****************/
+
+
+    input[type="text"]:focus {
+    box-shadow: 0 0 0 0;
+    box-shadow: transparent;   
+    }
+
+    Input[type="password"]:focus {
+        box-shadow: 0 0 0 0;
+        }
+
+body{
+    background-color: #061C99;
+}
+        
+#nav_login{
+color: #061C99;
+}
+
+#nav2_login{
+display: block;
+background-color: white;
+margin-top: 5rem;
+color: #061C99;
+text-align: center;
+}
+
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#p_login{
+    width: 100%;
+    text-align: center;
+    font-size: 11px;
+    color: #061C99;
+}
+
+#button_login2{
+    color:#061C99;
+    border-color: #061C99;
+    padding: 10px 40px;
+    width: 92%;
+    display: block;
+    margin-left: 1rem;
+    margin-left: 1.6rem;
+}
+#button_login{
+    
+    color:#061C99;
+    border-color: #061C99;
+    margin-top: 15px;
+    padding: 10px 40px;
+    width: 92%;
+    display: block; 
+    margin-left: 1.6rem;   
+}
+#button_login2:hover{
+    color:white;
+    border-color: white;   
+    background-color: #061C99;
+}
+#button_login:hover{
+    color:white;
+    border-color: white;   
+    background-color: #061C99;
+}
+.btn{
+    color: #061C99;
+}
+
+Form{
+    border: 1px #aaa solid; 
+    max-width: 80%;
+    border-radius: 35px;
+    padding: 50px 10px;
+    padding-bottom: 50px;
+    background-color: white;
+}
+
+.center{
+    text-align: center;
+}
+
+.login_recuperar_senha {
+    text-align: right;
+    display: block;
+    max-width: 97%;
+    color: #061C99;
+    font-size: 12px;
+}
+
+.login_recuperar_senha i{
+    color: #061C99;
+}
+
+#nav_link_login{
+align-items: center;
+}
+
+#nav_login{
+    display: grid;
+    color: #061C99;
+    margin-left: -135px;
+    background-color: white;
+    width: 1349px;    
+}
+
+#nav_link_login{
+    align-items: center;    
+}
+
+.esc {
+    border: none;
+    background-color: transparent;
+    position: relative;
+}
+
+#icon_login{
+    width: 75px;
+    display: block;
+    margin-left: 12.5rem;  
+}
+        
+
+.Label_login b{
+    display: block;
+    text-align: center;
+    color: #061C99;
+    font-size: 1rem;
+    margin-left: 10.9rem;
+}        
+        
+#logo_login {
+        display: flex;
+        margin-left: 10%;
+        height: auto;
+        width: 125px;        
+}
+
+/*
+	******** Flex -block
+*/
+
+.space-around {
+	justify-content: space-around;
+}
+
+.flex-start {
+	justify-content: flex-start;
+}
+
+.flex-end {
+	justify-content: flex-end;
+}
+
+.center {
+	justify-content: center;
+}
+
+.space-between {
+	justify-content: space-between;
+}
+
+.space-around {
+	justify-content: space-around;
+}
+
+/* Flex Container */
+
+
+
+.containerHeader {
+	max-width: 800px;
+    
+	margin: 0 auto;
+	margin-bottom: 100px;
+
+}
+
+.column {
+	min-height: 200px;
+	flex-direction: column;
+}
+
+/* Flex Item */
+.item {
+	margin: 5px;
+	padding: 0 10px;
+	text-align: center;
+	font-size: 1.5em;
+	border: 1px solid #ccc;
+}
+
+
+.fixarRodape {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+
